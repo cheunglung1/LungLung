@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Container{display:grid; grid-template-columns:1fr 2fr;}
+.Title{background-color:#d0ba97; padding: 30px 10px 10px 10px;}
+.description{background-color: blueviolet;padding:10px 10px 10px 10px}
+.Card-container {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr; 
+  grid-column-gap:10px;}
+  .Card-container > div {
+    background-color: #FFF282;
+    padding: 4px 4px 4px 4px;
+    border-radius: 15px;
+  }
+  .Card-container img {
+    width: 100%;}
+  .Card-container > div:hover {
+    background-color:blue;
+  }
+  
